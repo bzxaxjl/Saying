@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.bzx.finalwork">
 
     <!--允许联网 -->
@@ -23,9 +24,10 @@
         android:name=".app.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/icon"
-        android:label="@string/app_name"
+        android:label="記語"
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
+        tools:replace="label,allowBackup"
         android:theme="@style/AppTheme">
         <activity android:name=".ui.WelcomeActivity"
             android:noHistory="true">

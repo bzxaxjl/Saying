@@ -9,7 +9,7 @@ import android.view.ViewConfiguration;
 /**
  * 直接在网上找的重写swipeRefreshLayout代码
  * 主要是为了解决swipeRefreshLayout与viewpager的滑动冲突
- * Created by AItsuki on 2016/1/20.
+ * 解决F2的上划更新和横向滑动的冲突
  */
 public class VpSwipeRefreshLayout extends SwipeRefreshLayout {
 

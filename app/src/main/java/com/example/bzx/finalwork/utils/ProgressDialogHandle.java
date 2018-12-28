@@ -22,7 +22,6 @@ import com.example.bzx.finalwork.R;
  * 
  * 在使用时需要注意，如果是需要在ProgressBar后面放背景图的，先要调用方法setBackground
  * 然后再调用show方法
- * @author 
  *
  */
 @SuppressLint("HandlerLeak")
