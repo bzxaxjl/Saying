@@ -1,7 +1,7 @@
 # Saying
 bzx_java Work
 .首先，作为一款安卓开发社交APP首先要有用户注册—登陆—操作—更改密码—注销等基本操作。这是一款简单的针对文字分享的社区APP。框架基于传统的MVC，界面采用Material Design设计。后台则使用了Bmob后端云进行数据存储。
- ![image](https://github.com/bzxaxjl/Saying/blob/master/%E5%9B%BE%E7%89%87.png)
+ ![image](https://github.com/bzxaxjl/Saying/blob/master/database.png)
 •  操作系统：Windows 10 
 •  开发工具：Android Studio 3.0 & SDK 27 
 •  测试设备：Android 7.0 及以上版本的手机
