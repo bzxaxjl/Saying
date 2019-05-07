@@ -90,7 +90,7 @@ public class UserMessage extends AppCompatActivity {
     private static int output_XX = 480;
     private static int output_YY = 200;
 
-    // 2018/7/6尝试
+    // 2018/11/14尝试
     // 用于接收图库选择或拍照完成后的结果回调
     private static final int PHOTO_TK = 0; //图库
     private static final int PHOTO_PZ = 1; //拍照

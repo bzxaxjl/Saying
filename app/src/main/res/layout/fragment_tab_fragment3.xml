@@ -37,7 +37,7 @@
                 app:layout_constraintRight_toRightOf="parent"/>
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/headView"
-                android:src="@mipmap/img_2"
+                android:src="@mipmap/icon"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginTop="110dp"

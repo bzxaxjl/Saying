@@ -69,7 +69,7 @@ public class AddBook extends AppCompatActivity {
     private static int output_Y = 200;
     private static String img_uri = null;
 
-    // 2018/7/6尝试
+    // 2018/11/11尝试
     // 用于接收图库选择或拍照完成后的结果回调
     private static final int PHOTO_TK = 0; //图库
     private static final int PHOTO_PZ = 1; //拍照
@@ -132,7 +132,7 @@ public class AddBook extends AppCompatActivity {
                 name = name_edittext.getText().toString();
                 intro = intro_edittext.getText().toString();
                 if (name.equals(""))
-                    Toast.makeText(getApplicationContext(), "笔记本标题不能为空哦", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "笔记本标题不能为空", Toast.LENGTH_SHORT).show();
                 else if (img_uri == null)
                     Toast.makeText(getApplicationContext(), "请上传笔记本封面图片", Toast.LENGTH_SHORT).show();
                 else

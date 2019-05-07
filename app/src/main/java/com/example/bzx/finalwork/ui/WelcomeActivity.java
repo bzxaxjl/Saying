@@ -49,7 +49,7 @@ public class WelcomeActivity extends AppCompatActivity {
                 overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out);
             }
         };
-        timer.schedule(task, 1000 * 2); //2秒后跳转
+        timer.schedule(task, 1000 * 2); //开屏显示2秒后跳转
     }
 }
 

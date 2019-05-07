@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#2b2b2a</color>
     <color name="colorAccent">#a4a392</color>
     <color name="colorBackground">#f1f0e7</color>
-    <color name="colorBase1">#bacd77</color>
+    <color name="colorBase1">#009ad6</color>//bacd77
     <color name="colorBase2">#8a000000</color>
     <color name="colorBase3">#292929</color>
     <color name="colorBase4">#333333</color>
@@ -14,4 +14,6 @@
     <color name="trans1">#33ffffff</color>
     <color name="trans2">#332b2b2a</color>
     <color name="trans3">#77ffffff</color>
+
 </resources>
+

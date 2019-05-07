@@ -90,7 +90,7 @@ public class RegisterActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         // findView
-        headView = (CircleImageView) findViewById(R.id.img_2);
+        headView = (CircleImageView) findViewById(R.id.icon);
         nickName = (EditText) findViewById(R.id.nickName);
         loginEmail = (EditText) findViewById(R.id.loginEmail);
         password = (EditText) findViewById(R.id.password);
@@ -130,7 +130,7 @@ public class RegisterActivity extends AppCompatActivity {
                 else if (img_uri.equals(""))
                     Toast.makeText(getApplication(), "请上传你喜欢的头像", Toast.LENGTH_SHORT).show();
                 else if (!passwordText.equals(psw_againText))
-                    Toast.makeText(getApplication(), "请注意：您的两次密码填写不一致", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplication(), "两次密码填写不一致", Toast.LENGTH_SHORT).show();
                 else {
                     uploadImage_then_signUp(img_uri);
                 }
@@ -143,7 +143,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     public void createDialog() {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
-        alertDialog.setMessage("注册成功！尝试登录吧")
+        alertDialog.setMessage("注册成功！")
                 .setPositiveButton("确定", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {

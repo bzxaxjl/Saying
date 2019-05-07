@@ -98,7 +98,7 @@ public class TabFragment1 extends Fragment {
             public void done(List<_User> object,BmobException e) {
                 if (e == null) {
                     if (object.size() == 0)
-                        Toast.makeText(getApplicationContext(), "你还没关注任何人哦", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "你还没关注任何人", Toast.LENGTH_SHORT).show();
                     else {
                         focus_ids = new String[object.size()];
                         for (int i = 0; i < object.size(); i++) {
